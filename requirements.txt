@@ -1,0 +1,3 @@
+python -m venv .venv
+.venv\Scripts\activate
+pip install numpy pandas matplotlib nltk spacy transformers scikit-learn jupyter notebook autogluon #geodesic-api[all]

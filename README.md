@@ -112,7 +112,7 @@ Model interpretability is provided via SHAP values
 
 ## 👥 Contributors
 Nathania Gabriela
-Duc-Anh Nguyen
+and Duc-Anh Nguyen
 
 ## 📄 License
 

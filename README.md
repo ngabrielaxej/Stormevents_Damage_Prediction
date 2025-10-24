@@ -48,13 +48,11 @@ The data originates from storm-event tracking sources and includes key fields su
 - `DAMAGE_PROPERTY`, `DAMAGE_CROPS` – target variables (estimated damage)  
 - additional indicators (wind speed, hail size, etc) and derived features  
 
-*(Adjust exact column names and descriptions based on your dataset.)*
 
 ---
 
 ## 📁 Repository Structure  
 
-```bash
 📂 storm_damage_pipeline/
 │
 ├── data/                 # Raw and processed datasets
@@ -63,7 +61,8 @@ The data originates from storm-event tracking sources and includes key fields su
 ├── artifacts/            # Outputs, logs, and feature importances
 ├── storm_damage_pipeline.py  # Main script for pipeline execution
 └── utils/                # Helper functions for preprocessing and NLP
----
+
+
 
 ## ⚙️ Installation  
 Clone the repository and install dependencies:

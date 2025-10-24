@@ -53,14 +53,14 @@ The data originates from storm-event tracking sources and includes key fields su
 
 ## 📁 Repository Structure  
 
-📂 storm_damage_pipeline/
-│
-├── data/                 # Raw and processed datasets
-├── notebooks/            # Exploratory analysis & model experiments
-├── models/               # Trained models and checkpoints
-├── artifacts/            # Outputs, logs, and feature importances
-├── storm_damage_pipeline.py  # Main script for pipeline execution
-└── utils/                # Helper functions for preprocessing and NLP
+📂 storm_damage_pipeline/\
+│\
+├── data/                 # Raw and processed datasets\
+├── notebooks/            # Exploratory analysis & model experiments\
+├── models/               # Trained models and checkpoints\
+├── artifacts/            # Outputs, logs, and feature importances\
+├── storm_damage_pipeline.py  # Main script for pipeline execution\
+└── utils/                # Helper functions for preprocessing and NLP\
 
 
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ## 🧭 Usage
 
-To run the main pipeline:
+To run the main pipeline:\
 python storm_damage_pipeline.py \
   --input "data/StormEvents_details-ftp_v1.0_d2013.csv" \
   --outdir "./artifacts" \
@@ -119,7 +119,7 @@ Duc-Anh Nguyen
 This project is licensed under the MIT License
 
 
-🌍 Acknowledgments
+## 🌍 Acknowledgments
 
 Data provided by storm-event tracking source NOAA.
 Thanks to the open-source community and contributors for tools and libraries used in this project.

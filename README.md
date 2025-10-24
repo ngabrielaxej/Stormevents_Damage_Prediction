@@ -22,7 +22,7 @@ The project integrates **structured data** (e.g., location, time, magnitude) and
 
 ## 🧠 Overview
 
-This project is part of an **LMU Data Science industry collaboration**, focusing on developing a predictive model for estimating damages from natural disaster events.  
+This project focuses on developing a predictive model for estimating damages from natural disaster events.  
 We combine:
 - **Tabular features:** location, date, event type, intensity
 - **Text features:** event narratives describing causes and consequences

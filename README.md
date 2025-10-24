@@ -53,16 +53,16 @@ The data originates from storm-event tracking sources and includes key fields su
 ---
 
 ## 📁 Repository Structure  
-Stormevents_Damage_Prediction/
-├── data/ # raw & processed CSVs
-├── notebooks/ # exploration, model experiments
-├── models/ # saved model artifacts
-├── artifacts/ # outputs: logs, feature-importances, plots
-├── storm_damage_pipeline.py # main execution script
-├── utils/ # helper modules: preprocessing, NLP, features
-├── requirements.txt # Python dependencies
-└── README.md # this file
 
+```bash
+📂 storm_damage_pipeline/
+│
+├── data/                 # Raw and processed datasets
+├── notebooks/            # Exploratory analysis & model experiments
+├── models/               # Trained models and checkpoints
+├── artifacts/            # Outputs, logs, and feature importances
+├── storm_damage_pipeline.py  # Main script for pipeline execution
+└── utils/                # Helper functions for preprocessing and NLP
 ---
 
 ## ⚙️ Installation  

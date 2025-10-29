@@ -1,0 +1,10 @@
+{
+  "n_estimators": 823,
+  "max_depth": 5,
+  "learning_rate": 0.03725721508439826,
+  "subsample": 0.7051558450806876,
+  "colsample_bytree": 0.9921468282590112,
+  "reg_lambda": 0.41509901662066806,
+  "tweedie_variance_power": 1.1136433811759698,
+  "max_bin": 132
+}

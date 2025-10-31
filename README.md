@@ -88,9 +88,12 @@ Models implemented include:
 
 **Ridge Regression** – a reliable linear baseline
 
-**Random Forest Regressor** – non-linear tree-based model
+**XGBoost** – non-linear tree-based model
 
-**TabTransformer** – advanced model combining categorical, numeric & text embeddings
+**XGBoost with Quantile Loss**
+
+**XGBoost with Tweedie Distribution**
+
 
 Model interpretability is provided via SHAP values
 

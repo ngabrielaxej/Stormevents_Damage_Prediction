@@ -21,7 +21,7 @@ A machine-learning pipeline to predict property and crop damage from storm event
 ---
 
 ## 🧠 Overview  
-This project implements a full pipeline for **predicting damages** (to crops and properties) from storm events documented in large datasets. The pipeline integrates:  
+This project implements a full pipeline for **predicting damages** (to crops and properties) from storm events documented in a large dataset (60K x 51). The pipeline integrates:  
 - structured attributes (e.g., event type, location, time)  
 - unstructured text (event narratives)  
 - machine-learning models for regression of damage amounts  

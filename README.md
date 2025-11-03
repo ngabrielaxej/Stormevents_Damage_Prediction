@@ -40,7 +40,7 @@ Ideal for risk modelling, disaster-impact analysis, and forecasting.
 ---
 
 ## 🧾 Data Description  
-The data originates from storm-event tracking sources and includes key fields such as:  
+The data originates from storm-event tracking sources (https://www.ncei.noaa.gov/stormevents/ftp.jsp) and includes key fields such as:  
 - `EVENT_TYPE` – type of disaster (e.g., tornado, flood)  
 - `BEGIN_LAT`, `BEGIN_LON`, `END_LAT`, `END_LON` – geographical coordinates  
 - `BEGIN_DATE_TIME`, `END_DATE_TIME` – timestamps of the event  

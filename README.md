@@ -52,7 +52,6 @@ The data originates from storm-event tracking sources (https://www.ncei.noaa.gov
 ---
 
 ## 📁 Repository Structure  
-
 📂 storm_damage_pipeline/\
 │\
 ├── data/                 # Raw and processed datasets\
@@ -68,7 +67,6 @@ cd Stormevents_Damage_Prediction
 pip install -r requirements.txt
 
 ## 🧭 Usage
-
 To run the main pipeline:\
 python storm_damage_pipeline.py \
   --input "data/StormEvents_details-ftp_v1.0_d2013.csv" \
@@ -90,15 +88,13 @@ Models implemented include:
 
 **XGBoost with Tweedie Distribution**
 
-
 Model interpretability is provided via SHAP values
 
 ## 📈 Results
-
+see out report in pdf
 
 
 ## 🚀 Future Work/Limitation
-
 - Enhance NLP pipeline (e.g., entity extraction, context embedding)
 
 - Incorporate geospatial features (proximity to coast, elevation, infrastructure)
@@ -114,12 +110,10 @@ Nathania Gabriela
 and Duc-Anh Nguyen
 
 ## 📄 License
-
 This project is licensed under the MIT License
 
 
 ## 🌍 Acknowledgments
-
-Data provided by storm-event tracking source NOAA.
+Data provided by storm-event tracking source NOAA (https://www.ncei.noaa.gov/stormevents/ftp.jsp).
 Thanks to the open-source community and contributors for tools and libraries used in this project.
 

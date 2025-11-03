@@ -56,11 +56,7 @@ The data originates from storm-event tracking sources (https://www.ncei.noaa.gov
 📂 storm_damage_pipeline/\
 │\
 ├── data/                 # Raw and processed datasets\
-├── notebooks/            # Exploratory analysis & model experiments\
-├── models/               # Trained models and checkpoints\
-├── artifacts/            # Outputs, logs, and feature importances\
-├── storm_damage_pipeline.py  # Main script for pipeline execution\
-└── utils/                # Helper functions for preprocessing and NLP\
+├── outputs/            # Outputs, logs, and feature importances\
 
 
 

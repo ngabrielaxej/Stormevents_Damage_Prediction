@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ## 🧭 Usage
 To run the main pipeline:\
-python storm_damage_pipeline.py \
+python storm_damage_pipeline_5.7.2.ipynb \
   --input "data/StormEvents_details-ftp_v1.0_d2013.csv" \
   --outdir "./artifacts" \
   --model ridge, XGB\

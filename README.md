@@ -73,7 +73,7 @@ To run the main pipeline:\
 python storm_damage_pipeline.py \
   --input "data/StormEvents_details-ftp_v1.0_d2013.csv" \
   --outdir "./artifacts" \
-  --model ridge \
+  --model ridge, XGB\
   --sample 20000 \
   --tfidf 20000
 
